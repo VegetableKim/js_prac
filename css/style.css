@@ -1,0 +1,99 @@
+body {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  z-index: -1;
+  opacity: 85%;
+  filter: brightness(65%);
+}
+
+.hidden {
+  display: none;
+}
+
+#clock {
+  font-size: 80px;
+  margin-bottom: 30px;
+}
+
+input {
+  background-color: transparent;
+  font-size: 20px;
+  border: none;
+  color: white;
+}
+
+::placeholder {
+  color: white;
+}
+
+#logInButton {
+  border: none;
+  color: white;
+  background-color: rgb(58, 58, 58);
+  padding: 10px 15px;
+  border-radius: 13px;
+}
+
+input:focus {
+  outline: none;
+}
+
+#login-form {
+  margin-bottom: 20px;
+}
+
+#login-form input {
+  color: white;
+  margin: 10px 0px;
+  text-align: center;
+  width: 200px;
+}
+
+#todo-form {
+  display: flex;
+  justify-content: center;
+}
+
+#todo-form input {
+  width: 280px;
+  text-align: center;
+  margin: 10px 0px;
+}
+
+#todo-list {
+  width: 300px;
+  list-style-type: none;
+}
+li {
+  padding: 5px 0px;
+  text-align: center;
+}
+
+li button {
+  border: none;
+  color: white;
+  background-color: transparent;
+  padding: 5px 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#quotes {
+  font-style: italic;
+  margin-bottom: 10px;
+  font-size: 17px;
+}
